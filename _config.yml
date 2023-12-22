@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "姚可岑 Kecen Yao"
-  avatar           : "img.jpeg"
+  avatar           : # "img.jpeg"
   bio              : "Artificial Intelligence | Robotics @ NYU"
   location         : "North America"
   employer         :
