@@ -11,15 +11,15 @@ redirect_from:
 
 <img align="right" src="../images/img.jpeg" alt="Photo" style="width: 210px; border-radius: 10px; padding: 8px 8px 8px 8px"/>
 
-Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif' alt='GIF示例' style='width: auto; height: 1em;'>, I am currently a **Computer Science & Data Science** undergraduate student from [**New York University Shanghai**](https://shanghai.nyu.edu/). In 2022-2023, I was a studying away student at the College of Art and Science, [New York University](https://www.nyu.edu/).
+Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif' alt='GIF示例' style='width: auto; height: 1em;'>, I am currently pursing a Master degree @ [**UofT MScAC**](https://mscac.utoronto.ca/). I graduated as a **Computer Science & Data Science** student from [**New York University Shanghai**](https://shanghai.nyu.edu/) in 2024.
 
 **Research Interest**: Computer Vision, Robotics Pretraining, and Reinforcement Learning!
 
-My professional and research interest lies in Artificial Intelligence and Robotics Learning, aiming to enhance robots’ perception and intelligence. My career goal is to become an AI engineer. I would like to explore more interesting areas in AI and robotics in the future!
+My professional and research interest lies in Artificial Intelligence and Robotics Learning, aiming to enhance robots’ perception and intelligence. I am also interested in the intersection of medical science and social good(assistive robotics)! I want to purse a applied research career in the field of AI and Robotics in North America.
 
 **You can find my [CV](../assets/CV.pdf) here!**
 
-Contact: [ky2138@nyu.edu](mailto:ky2138@nyu.edu)
+Contact: [kecen.yao@mail.utoronto.ca](mailto:kecen.yao@mail.utoronto.ca)
 
 
 <a href="https://github.com/KecenYao" target="_blank">
