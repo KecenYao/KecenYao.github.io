@@ -17,7 +17,7 @@ Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/
 
 My professional and research interest lies in Artificial Intelligence and Robotics Learning, aiming to enhance robots’ perception and intelligence. I am also interested in the intersection of medical science and social good(assistive robotics)! I want to purse a applied research career in the field of AI and Robotics in North America.
 
-**You can find my [CV](../assets/CV.pdf) here!**
+**You can find my [CV](./cv) here!**
 
 Contact: [kecen.yao@mail.utoronto.ca](mailto:kecen.yao@mail.utoronto.ca)
 

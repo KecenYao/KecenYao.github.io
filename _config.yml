@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Kecen Yao/Personal Page"
 title_separator          : "-"
 name                     : &name "姚可岑 Kecen Yao"
-description              : &description "Artificial Intelligence | Robotics @ NYU"
+description              : &description "Artificial Intelligence | Robotics"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            : ky2138@nyu.edu
+  email            : kecen.yao@mail.utoronto.ca
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
