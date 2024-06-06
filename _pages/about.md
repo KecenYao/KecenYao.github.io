@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!-- 
 
-
-<img align="right" src="../images/img.jpeg" alt="Photo" style="width: 210px; border-radius: 10px; padding: 8px 8px 8px 8px"/>
+<img align="right" src="../images/img.jpeg" alt="Photo" style="width: 210px; border-radius: 10px; padding: 8px 8px 8px 8px"/> -->
 
 Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif' alt='GIF示例' style='width: auto; height: 1em;'>, I am currently pursing a Master degree @ [**UofT MScAC**](https://mscac.utoronto.ca/). I graduated as a **Computer Science & Data Science** student from [**New York University Shanghai**](https://shanghai.nyu.edu/) in 2024.
 
