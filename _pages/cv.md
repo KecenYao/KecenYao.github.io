@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "What I have Done :)
+title: "What I have Done :)"
 permalink: /cv/
 author_profile: true
 redirect_from:
