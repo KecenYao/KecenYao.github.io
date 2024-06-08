@@ -1,92 +1,55 @@
 ---
-permalink: /map-gallery
-title: "Map-Based Photo Gallery"
-excerpt: "A map with clickable points to view photo galleries"
+permalink: /gallery/
+title: "Travel Photo Gallery"
+excerpt: "A collection of travel photos"
 author_profile: false
 ---
 
-## Map-Based Photo Gallery
+## Travel Photo Gallery
 
-Welcome to the map-based photo gallery! Click on a point on the map to view the associated photo gallery.
+Welcome to my travel photo gallery! Here are some of my favorite moments captured during my travels.
 
 <style>
-  #map {
-    height: 600px;
-    width: 100%;
+  .gallery-section {
+    margin-bottom: 50px;
+  }
+  .gallery-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
   }
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
+    justify-content: center;
   }
   .gallery img {
     margin: 10px;
     border-radius: 10px;
-    width: 100px; /* Adjust as needed */
+    width: 300px;
     height: auto;
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   .gallery img:hover {
     transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   }
 </style>
 
-<div id="map"></div>
-<div id="gallery" class="gallery" style="display:none;"></div>
+{% assign places = "Shanghai, Tokyo, New York" | split: ", " %}
 
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script>
-  // Initialize the map
-  var map = L.map('map').setView([51.505, -0.09], 13);
-
-  // Add a tile layer to the map
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-
-  // Example points with associated images
-  var points = [
-    {
-      coords: [51.505, -0.09],
-      images: [
-        {% for image in site.static_files %}
-          {% if image.path contains 'images/gallery/location1/' %}
-            '{{ site.baseurl }}{{ image.path }}',
-          {% endif %}
-        {% endfor %}
-      ]
-    },
-    {
-      coords: [51.515, -0.1],
-      images: [
-        {% for image in site.static_files %}
-          {% if image.path contains 'images/gallery/location2/' %}
-            '{{ site.baseurl }}{{ image.path }}',
-          {% endif %}
-        {% endfor %}
-      ]
-    }
-  ];
-
-  // Add markers to the map
-  points.forEach(function(point) {
-    var marker = L.marker(point.coords).addTo(map);
-    marker.on('click', function() {
-      showGallery(point.images);
-    });
-  });
-
-  // Function to display the gallery
-  function showGallery(images) {
-    var gallery = document.getElementById('gallery');
-    gallery.innerHTML = '';
-    images.forEach(function(image) {
-      var img = document.createElement('img');
-      img.src = image;
-      img.alt = 'Photo';
-      gallery.appendChild(img);
-    });
-    gallery.style.display = 'flex';
-  }
-</script>
+{% for place in places %}
+  <div class="gallery-section">
+    <h2 class="gallery-title">{{ place }}</h2>
+    <div class="gallery">
+      {% assign images = site.static_files | where: "path", "contains", "images/gallery/" | where: "path", "contains", place %}
+      {% for image in images %}
+        <div class="photo">
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.basename | escape }}" loading="lazy">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
