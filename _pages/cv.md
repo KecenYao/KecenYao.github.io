@@ -11,4 +11,4 @@ redirect_from:
 
 <embed src="../assets/CV.pdf" width="650" height="800" type='application/pdf'>
 
-<p>Last updated: {{ page.last_modified_at | date: "%B %d, %Y at %I:%M %p" }}</p>
+<p>Last updated: 2024/6/8</p>
