@@ -1,5 +1,5 @@
 ---
-permalink: /gallery
+permalink: /gallery/
 title: "Photo Gallery"
 excerpt: "A collection of photos"
 author_profile: false
