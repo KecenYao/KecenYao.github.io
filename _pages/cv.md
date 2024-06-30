@@ -11,4 +11,4 @@ redirect_from:
 
 <embed src="../assets/CV.pdf" width="650" height="800" type='application/pdf'>
 
-<p>Last updated: 2024/6/8</p>
+<p>Last updated: 2024/6/30</p>
