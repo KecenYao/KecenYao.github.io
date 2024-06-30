@@ -45,11 +45,11 @@ Welcome to my travel photo gallery! Here are some of my favorite moments capture
     <h2 class="gallery-title">{{ place }}</h2>
     <div class="gallery">
       {% assign images = site.static_files | where: "path", "contains", "images/gallery/" | where: "path", "contains", place %}
-      {% for image in images %}
+      <!-- {% for image in images %}
         <div class="photo">
           <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.basename | escape }}" loading="lazy">
         </div>
-      {% endfor %}
+      {% endfor %} -->
     </div>
   </div>
 {% endfor %}
